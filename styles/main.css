@@ -1,0 +1,1274 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header {
+  width: 1440px;
+  height: 700px;
+  margin: auto;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+.header > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.header > h2 {
+  position: absolute;
+  width: 152px;
+  height: 24px;
+  left: 248px;
+  top: 46px;
+  font-family: "MontserratBold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.header > h1 {
+  position: absolute;
+  width: 470px;
+  height: 126px;
+  left: 485px;
+  top: 223.5px;
+  font-family: "MontserratBold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 52px;
+  line-height: 63px;
+  text-align: center;
+}
+
+.header > p {
+  position: absolute;
+  width: 396px;
+  height: 25px;
+  left: 522px;
+  top: 378px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.header > button {
+  position: absolute;
+  width: 225px;
+  height: 40px;
+  left: 608px;
+  top: 436px;
+  background: #FF4E50;
+  border-radius: 40px;
+}
+
+.button1 {
+  position: absolute;
+  width: 90px;
+  height: 36px;
+  left: 996px;
+  top: 50px;
+}
+
+.button1 > button {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  overflow: hidden;
+  font-family: "MontserratBold";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: white;
+  border-radius: 40px;
+  padding: 5px;
+}
+
+.button2 {
+  position: absolute;
+  width: 90px;
+  height: 36px;
+  left: 1077px;
+  top: 50px;
+}
+
+.button2 > button {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  overflow: hidden;
+  font-family: "MontserratBold";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  border-radius: 40px;
+  padding: 5px;
+}
+
+button:hover {
+  border: 1px solid white;
+}
+
+@media screen and (max-width: 800px) {
+  .header {
+    width: 768px;
+    height: 700px;
+  }
+  .header > h2 {
+    width: 152px;
+    height: 24px;
+    left: 48px;
+    top: 46px;
+  }
+  .header > h1 {
+    left: 149px;
+    top: 223.5px;
+  }
+  .header > p {
+    left: 186px;
+    top: 378px;
+  }
+  .header > button {
+    left: 291.5px;
+    top: 448px;
+  }
+  .button1 {
+    left: 565px;
+    top: 50px;
+  }
+  .button2 {
+    left: 646px;
+    top: 50px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header {
+    width: 320px;
+    height: 540px;
+  }
+  .header > h2 {
+    left: 83px;
+    top: 190px;
+  }
+  .header > h1 {
+    position: absolute;
+    width: 272px;
+    height: 74px;
+    left: 22px;
+    top: 250px;
+    font-size: 30px;
+    line-height: 37px;
+  }
+  .header > p {
+    width: 250px;
+    height: 49px;
+    left: 37px;
+    top: 332px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .header > button {
+    width: 280px;
+    height: 40px;
+    left: 21px;
+    top: 400px;
+  }
+  .button1 {
+    left: 89px;
+    top: 10px;
+  }
+  .button2 {
+    left: 163px;
+    top: 10px;
+  }
+}
+
+footer {
+  width: 1440px;
+  height: 224px;
+  bottom: 0px;
+  margin: auto;
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border-top: 1px solid #FF4E50;
+}
+
+.blokA {
+  width: 368px;
+  height: 100%;
+  position: relative;
+}
+
+.blokA > p {
+  position: absolute;
+  width: 119px;
+  height: 20px;
+  left: 249px;
+  top: 38px;
+  color: #FF4E50;
+  font-family: "MontserratBold";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.blokB {
+  width: 361px;
+  height: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.blokB > h5 {
+  position: absolute;
+  width: 70px;
+  height: 17px;
+  left: 122px;
+  top: 40px;
+  font-family: "MontserratBold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.blokB-B {
+  position: absolute;
+  width: 114px;
+  height: 156px;
+  left: 122px;
+  top: 68px;
+  color: #999999;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.blokC {
+  width: 287px;
+  height: 100%;
+  position: relative;
+}
+
+.blokC > h5 {
+  position: absolute;
+  width: 64px;
+  height: 17px;
+  top: 40px;
+  font-family: "MontserratBold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.blokD {
+  width: 424px;
+  height: 100%;
+  position: relative;
+}
+
+.blokD > p {
+  position: absolute;
+  width: 83px;
+  height: 12px;
+  left: 30px;
+  top: 40px;
+  font-family: "MontserratBold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 1px;
+  color: #CCCCCC;
+}
+
+.blokD > img {
+  position: absolute;
+  width: 110px;
+  height: 24px;
+  left: 0px;
+  top: 59px;
+}
+
+@media screen and (max-width: 800px) {
+  footer {
+    width: 768px;
+    height: 224px;
+  }
+  .blokA {
+    width: 200px;
+  }
+  .blokA > p {
+    position: absolute;
+    width: 119px;
+    height: 20px;
+    left: 39px;
+    top: 38px;
+  }
+  .blokC > h5 {
+    left: 106px;
+  }
+  .blokD > p {
+    left: 125px;
+  }
+  .blokD > img {
+    left: 91px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  footer {
+    width: 320px;
+    height: 204px;
+    margin-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .blokA {
+    width: 100%;
+    height: 20px;
+  }
+  .blokA > p {
+    width: 119px;
+    height: 20px;
+    left: 101px;
+    top: 21px;
+  }
+  .blokB {
+    width: 100%;
+    height: 69px;
+    position: relative;
+  }
+  .blokB > h5 {
+    position: absolute;
+    width: 70px;
+    height: 17px;
+    left: 125px;
+    top: 50px;
+  }
+  .blokB-B {
+    width: 100%;
+    height: 52px;
+    margin-left: -98px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .blokC {
+    width: 100%;
+    height: 17px;
+    position: relative;
+  }
+  .blokC > h5 {
+    position: absolute;
+    left: 127.5px;
+    top: 83px;
+  }
+  .blokD {
+    width: 100%;
+    height: 40px;
+    position: relative;
+    margin-bottom: 120px;
+  }
+  .blokD > p {
+    position: absolute;
+    width: 83px;
+    height: 12px;
+    left: 120px;
+    top: 101px;
+  }
+  .blokD > img {
+    position: absolute;
+    width: 110px;
+    height: 24px;
+    left: 95px;
+    top: 113px;
+  }
+}
+
+section {
+  width: 940px;
+  height: 100%;
+  margin: auto;
+}
+
+.text {
+  width: 100%;
+  font-family: "MontserratBold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 32px;
+  margin-top: 89px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+.first-box {
+  width: 100%;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.boxA {
+  width: 300px;
+  height: 400px;
+  position: relative;
+}
+
+.boxA > h2 {
+  width: 250px;
+  height: 58px;
+  font-family: "MontserratBold";
+  font-style: normal;
+  font-size: 24px;
+  line-height: 26px;
+  position: absolute;
+  left: 25px;
+  top: 254px;
+  color: #FFFFFF;
+}
+
+.boxA > p {
+  position: absolute;
+  width: 250px;
+  height: 57px;
+  left: 25px;
+  top: 322px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 14px;
+  color: #E3E3E3;
+}
+
+.boxB {
+  width: 300px;
+  height: 400px;
+  position: relative;
+}
+
+.boxB > h2 {
+  position: absolute;
+  width: 250px;
+  height: 29px;
+  left: 25px;
+  top: 284px;
+  color: #FFFFFF;
+  font-family: "MontserratBold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 14px;
+}
+
+.boxB > p {
+  position: absolute;
+  width: 250px;
+  height: 57px;
+  left: 25px;
+  top: 322px;
+  color: #E3E3E3;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.boxC {
+  width: 300px;
+  height: 400px;
+  position: relative;
+}
+
+.boxC > h2 {
+  position: absolute;
+  width: 250px;
+  height: 58px;
+  left: 25px;
+  top: 254px;
+  color: #FFFFFF;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 26px;
+}
+
+.boxC > p {
+  position: absolute;
+  width: 250px;
+  height: 57px;
+  left: 25px;
+  top: 322px;
+  color: #E3E3E3;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.secondbox {
+  width: 100%;
+  height: 205px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.boxD {
+  width: 221px;
+  height: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.boxD > img {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 0;
+  left: auto;
+}
+
+.boxD > h3 {
+  position: absolute;
+  width: 221px;
+  height: 18px;
+  left: 0px;
+  top: 137px;
+  color: #444444;
+  text-align: center;
+  font-family: "MontserratBold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.boxD > p {
+  position: absolute;
+  width: 221px;
+  height: 38px;
+  top: 167px;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 14px;
+  padding: 0 12px;
+}
+
+.boxE {
+  width: 221px;
+  height: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.boxE > img {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 0;
+  left: auto;
+}
+
+.boxE > h3 {
+  position: absolute;
+  width: 221px;
+  height: 18px;
+  left: 0px;
+  top: 137px;
+  color: #444444;
+  text-align: center;
+  font-family: "MontserratBold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.boxE > p {
+  position: absolute;
+  width: 221px;
+  height: 38px;
+  top: 167px;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 14px;
+  padding: 0 12px;
+}
+
+.boxF {
+  width: 221px;
+  height: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.boxF > img {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 0;
+  left: auto;
+}
+
+.boxF > h3 {
+  position: absolute;
+  width: 221px;
+  height: 18px;
+  left: 0px;
+  top: 137px;
+  color: #444444;
+  text-align: center;
+  font-family: "MontserratBold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.boxF > p {
+  position: absolute;
+  width: 221px;
+  height: 38px;
+  top: 167px;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 14px;
+  padding: 0 12px;
+}
+
+.boxG {
+  width: 221px;
+  height: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.boxG > img {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 0;
+  left: auto;
+}
+
+.boxG > h3 {
+  position: absolute;
+  width: 221px;
+  height: 18px;
+  left: 0px;
+  top: 137px;
+  color: #444444;
+  text-align: center;
+  font-family: "MontserratBold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.boxG > p {
+  position: absolute;
+  width: 221px;
+  height: 38px;
+  top: 167px;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 14px;
+  padding: 0 12px;
+}
+
+section > button {
+  width: 180px;
+  height: 40px;
+  margin-top: 41px;
+  margin-left: calc(50% - 90px);
+  border-radius: 40px;
+  color: #FF4E50;
+  font-size: 14px;
+  background: #FFFFFF;
+  border: 2px solid #FF4E50;
+}
+
+.conteiner {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 300px 300px 300px;
+      grid-template-columns: 300px 300px 300px;
+  -ms-grid-rows: 310px 310px 310px;
+      grid-template-rows: 310px 310px 310px;
+  gap: 20px;
+}
+
+.A {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+  overflow: hidden;
+}
+
+.B {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+  overflow: hidden;
+}
+
+.C {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3/4;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+  overflow: hidden;
+}
+
+.D {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  overflow: hidden;
+}
+
+.E {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-column: 2/4;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  overflow: hidden;
+}
+
+.F {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1/3;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3/4;
+  overflow: hidden;
+}
+
+.G {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3/4;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3/4;
+  overflow: hidden;
+}
+
+.thirdbox {
+  width: 482px;
+  height: 158px;
+  margin-top: 95px;
+  margin-left: calc(50% - 241px);
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.crate > h1 {
+  position: absolute;
+  width: 358px;
+  height: 32px;
+  left: 62.5px;
+  top: -6px;
+  font-family: "MontserratBold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 32px;
+  text-align: center;
+}
+
+.hi > p {
+  position: absolute;
+  width: 415px;
+  height: 24px;
+  left: 35px;
+  top: 69px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 14px;
+  text-align: center;
+}
+
+.knopka {
+  position: absolute;
+  width: 482px;
+  height: 40px;
+  left: 0px;
+  top: 118px;
+}
+
+input[type="text"] {
+  position: absolute;
+  width: 299px;
+  height: 40px;
+  left: 0px;
+  top: 0px;
+  background: #FFFFFF;
+  border: 1px solid #D4D4D4;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.073313);
+          box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.073313);
+  border-radius: 3px;
+}
+
+.knopka > button {
+  position: absolute;
+  width: 172.12px;
+  height: 40px;
+  left: 309px;
+  top: 0px;
+  background: #FF4E50;
+  border-radius: 40px;
+}
+
+@media screen and (max-width: 800px) {
+  section {
+    width: 748px;
+    height: 100%;
+    margin: auto;
+    overflow: hidden;
+  }
+  .boxA {
+    width: 236px;
+    overflow: hidden;
+  }
+  .boxA > p {
+    width: 196px;
+  }
+  .boxB {
+    width: 236px;
+    overflow: hidden;
+  }
+  .boxB > p {
+    width: 196px;
+  }
+  .boxC {
+    width: 236px;
+    overflow: hidden;
+  }
+  .boxC > p {
+    width: 196px;
+  }
+  .secondbox {
+    width: 492px;
+    height: 445px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: auto;
+  }
+  .boxD {
+    width: 236px;
+    height: 205px;
+  }
+  .boxE {
+    width: 236px;
+    height: 205px;
+  }
+  .boxF {
+    width: 236px;
+    height: 205px;
+  }
+  .boxG {
+    width: 236px;
+    height: 205px;
+  }
+  .conteiner {
+    width: 748px;
+    -ms-grid-columns: 236px 236px 236px;
+        grid-template-columns: 236px 236px 236px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  section {
+    width: 320px;
+    height: 100%;
+    margin: auto;
+    overflow: hidden;
+  }
+  .first-box {
+    width: 100%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .boxA {
+    width: 300px;
+    height: 240px;
+    margin-bottom: 10px;
+  }
+  .boxA > img {
+    width: 300px;
+    height: 240px;
+  }
+  .boxA > h2 {
+    position: absolute;
+    width: 250px;
+    height: 58px;
+    left: 20px;
+    top: 99px;
+  }
+  .boxA > p {
+    position: absolute;
+    width: 250px;
+    height: 57px;
+    left: 20px;
+    top: 167px;
+  }
+  .boxB {
+    width: 300px;
+    height: 240px;
+    margin-bottom: 10px;
+  }
+  .boxB > img {
+    width: 300px;
+    height: 240px;
+  }
+  .boxB > h2 {
+    position: absolute;
+    width: 250px;
+    height: 29px;
+    left: 20px;
+    top: 129px;
+  }
+  .boxB > p {
+    position: absolute;
+    width: 250px;
+    height: 57px;
+    left: 20px;
+    top: 167px;
+  }
+  .boxC {
+    width: 300px;
+    height: 240px;
+  }
+  .boxC > img {
+    width: 300px;
+    height: 240px;
+  }
+  .boxC > h2 {
+    width: 250px;
+    height: 58px;
+    left: 20px;
+    top: 99px;
+  }
+  .boxC > p {
+    position: absolute;
+    width: 250px;
+    height: 57px;
+    left: 20px;
+    top: 167px;
+  }
+  .text {
+    position: relative;
+    width: 280px;
+    height: 54px;
+    left: 10px;
+    top: 0px;
+  }
+  .secondbox {
+    width: 300px;
+    height: 900px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: auto;
+  }
+  .boxD {
+    width: 300px;
+    height: 205px;
+  }
+  .boxE {
+    width: 300px;
+    height: 205px;
+  }
+  .boxF {
+    width: 300px;
+    height: 205px;
+  }
+  .boxG {
+    width: 300px;
+    height: 205px;
+  }
+  .conteiner {
+    width: 300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: auto;
+  }
+  .A {
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+    position: relative;
+  }
+  .A > img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .B {
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+    position: relative;
+  }
+  .B > img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .C {
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+    position: relative;
+  }
+  .C > img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .D {
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+    position: relative;
+  }
+  .D > img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .E {
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+    position: relative;
+  }
+  .E > img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: none;
+       object-fit: none;
+  }
+  .F {
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+    position: relative;
+  }
+  .F > img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: none;
+       object-fit: none;
+  }
+  .G {
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+    position: relative;
+  }
+  .G > img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .thirdbox {
+    width: 280px;
+    height: 192px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  .crate > h1 {
+    position: absolute;
+    width: 303px;
+    height: 27px;
+    left: -10px;
+    top: 27px;
+  }
+  .hi > p {
+    position: absolute;
+    width: 415px;
+    height: 24px;
+    left: -70px;
+    top: 63px;
+  }
+  .knopka {
+    position: relative;
+    width: 300px;
+    height: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  input[type="text"] {
+    position: absolute;
+    width: 280px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+  }
+  .knopka > button {
+    width: 280px;
+    height: 40px;
+    left: 0px;
+    top: 50px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

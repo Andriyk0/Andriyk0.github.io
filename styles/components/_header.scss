@@ -1,0 +1,195 @@
+@import "../base/variables";
+
+
+.header{
+    width: 1440px;
+    height: 700px;
+    margin: auto;
+    text-align: center;   
+    color: white;
+    position: relative;
+}
+.header>img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.header>h2{
+  position: absolute;
+  width: 152px;
+  height: 24px;
+  left: 248px;
+  top: 46px;
+  font-family: $primaryFont;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.header>h1{
+  position: absolute;
+  width: 470px;
+  height: 126px;
+  left: 485px;
+  top: 223.5px;         
+  font-family: $primaryFont;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 52px;
+  line-height: 63px;
+  text-align: center;
+}
+.header>p{
+  position: absolute;
+  width: 396px;
+  height: 25px;
+  left: 522px;
+  top: 378px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 24px;
+}
+.header>button{
+    position: absolute;
+    width: 225px;
+    height: 40px;
+    left: 608px;
+    top: 436px;
+    background: #FF4E50;
+    border-radius: 40px;
+}
+.button1{
+    position: absolute;
+    width: 90px;
+    height: 36px;
+    left: 996px;
+    top: 50px;
+}
+.button1>button{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    overflow: hidden;
+    font-family: $primaryFont;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: white;
+    border-radius: 40px;
+    padding: 5px;
+}
+
+.button2{
+  position: absolute;
+  width: 90px;
+  height: 36px;
+  left: 1077px;
+  top: 50px;
+}
+.button2>button{
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  overflow: hidden;
+  font-family: $primaryFont;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  border-radius: 40px;
+  padding: 5px;
+}
+button:hover{
+    border: 1px solid white;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px){
+    .header{
+      width: 768px;
+      height: 700px; 
+    }
+    .header>h2{
+      width: 152px;
+      height: 24px;
+      left: 48px;
+      top: 46px;
+    }
+    .header>h1{
+      left: 149px;
+      top: 223.5px;
+    }
+    .header>p{
+      left: 186px;
+      top: 378px;
+    }
+    .header>button{
+      left: 291.5px;
+      top: 448px;
+    }
+    .button1{
+      left: 565px;
+      top: 50px;
+    }
+    .button2{
+      left: 646px;
+      top: 50px;
+    }
+  }
+
+
+  @media screen and (max-width: 400px){
+    .header{
+      width: 320px;
+      height: 540px; 
+  }
+  .header>h2{
+    left: 83px;
+    top: 190px;
+  }
+  .header>h1{
+    position: absolute;
+    width: 272px;
+    height: 74px;
+    left: 22px;
+    top: 250px;
+    font-size: 30px;
+    line-height: 37px;
+  }
+  .header>p{
+    width: 250px;
+    height: 49px;
+    left: 37px;
+    top: 332px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .header>button{
+    width: 280px;
+    height: 40px;
+    left: 21px;
+    top: 400px;
+  }
+  .button1{
+    left: 89px;
+    top: 10px;
+  }
+  .button2{
+    left: 163px;
+    top: 10px;
+  }
+}
